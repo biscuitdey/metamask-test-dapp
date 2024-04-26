@@ -2154,7 +2154,7 @@ const initializeFormElements = () => {
    * Personal Sign
    */
   personalSign.onclick = async () => {
-    const exampleMessage = 'Example `personal_sign` message';
+    const exampleMessage = 'hello world';
     try {
       const from = accounts[0];
       const msg = `0x${Buffer.from(exampleMessage, 'utf8').toString('hex')}`;
